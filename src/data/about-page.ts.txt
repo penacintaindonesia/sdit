@@ -1,0 +1,17 @@
+import { school } from "@/config/school";
+
+// ==========================================
+// KONTEN HALAMAN "TENTANG KAMI" - SILAKAN EDIT DI SINI
+// image boleh diganti ke file lain di public/assets/
+// paragraphs boleh ditambah atau dikurangi (tiap baris jadi satu paragraf)
+// ==========================================
+export const aboutPage = {
+  image: school.aboutImage,
+  intro: "Mengenal Lebih Dekat",
+  heading: school.name,
+  paragraphs: [
+    "SDIT Pena Cinta Indonesia adalah sekolah dasar Islam terpadu yang hadir untuk mencetak generasi unggul, berakhlak mulia, dan berprestasi. Kami memadukan kurikulum nasional dengan pendidikan Al-Qur'an dan Sunnah agar setiap siswa tumbuh dengan keseimbangan antara ilmu, iman, dan akhlak.",
+    "Kami percaya pendidikan terbaik lahir dari lingkungan yang aman, nyaman, dan penuh kasih sayang. Setiap guru dan staf berkomitmen mendampingi tumbuh kembang anak, baik secara akademik maupun karakter, sehingga siswa siap menghadapi masa depan dengan percaya diri.",
+    "Melalui program tahfidz, pembelajaran digital, dan beragam kegiatan ekstrakurikuler, kami membuka ruang bagi setiap anak untuk menemukan dan mengembangkan potensinya masing-masing.",
+  ],
+};
