@@ -13,6 +13,7 @@ export const school = {
   logo: "/assets/logo-sdit.png",
   favicon: "/assets/favicon.png",
   heroImage: "/assets/hero-school.jpg",
+  heroImageMobile: "/assets/hero-school-mobile.jpg",
   aboutImage: "/assets/about-school.jpg",
 
   welcomeText: "Selamat Datang di",
