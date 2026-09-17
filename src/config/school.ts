@@ -51,7 +51,7 @@ export const school = {
     ppdb: "https://forms.gle/XSt1i296ZLfzrGTA8",
     maps: "https://maps.app.goo.gl/o6ykxEGWaZCBudsY7",
     whatsapp: "https://wa.me/6281313152505",
-    videoProfile: "[ISI LINK VIDEO PROFIL]",
+    videoProfile: "https://www.facebook.com/share/r/1EGtB4qD8F/",
     profile: "#tentang-kami",
     programs: "/program",
     facilities: "/fasilitas",
