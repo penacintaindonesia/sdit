@@ -9,13 +9,23 @@ export default function Hero() {
     <section id="beranda" className="relative isolate overflow-hidden">
       {/* Foto gedung sekolah sebagai latar hero */}
       <div className="absolute inset-0 -z-10">
+        {/* Versi HP: foto potret/vertikal khusus, tampil di layar kecil saja */}
+        <Image
+          src={school.heroImageMobile || school.heroImage}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover block sm:hidden"
+        />
+        {/* Versi laptop/desktop: foto lebar seperti semula, tampil mulai layar sm ke atas */}
         <Image
           src={school.heroImage}
           alt=""
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className="object-cover hidden sm:block"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#EAF6FF] via-[#EAF6FF]/85 to-transparent" />
         <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-white to-transparent" />
@@ -53,7 +63,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
-            <Button href={school.links.profile} variant="primary" size="lg">
+            <Button href="#tentang-kami" variant="primary" size="lg">
               Kenali Lebih Lanjut
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Button>

@@ -7,7 +7,6 @@ const menuLinks = [
   { label: "Tentang Kami", href: school.links.profile },
   { label: "Program", href: school.links.programs },
   { label: "PPDB", href: "#ppdb" },
-  { label: "Berita", href: school.links.news },
   { label: "Kontak", href: "#kontak" },
 ];
 

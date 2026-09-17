@@ -6,6 +6,5 @@ export const navItems: NavItem[] = [
   { label: "Program", href: "#program" },
   { label: "Fasilitas", href: "#keunggulan" },
   { label: "PPDB", href: "#ppdb" },
-  { label: "Berita", href: "#berita" },
   { label: "Kontak", href: "#kontak" },
 ];

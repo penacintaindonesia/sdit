@@ -7,5 +7,5 @@ export const advantages: Advantage[] = [
   { icon: "Landmark", title: "Program Tahfidz", description: "Membentuk generasi Qur'ani yang cinta Al-Qur'an.", tone: "blue" },
   { icon: "Star", title: "Ekstrakurikuler Beragam", description: "Mengembangkan bakat dan minat siswa.", tone: "violet" },
   { icon: "Home", title: "Lingkungan Islami", description: "Suasana belajar yang aman, nyaman, dan kondusif.", tone: "pink" },
-  { icon: "Building2", title: "Fasilitas Lengkap", description: "Ruang kelas representatif, laboratorium, perpustakaan, dan sarana olahraga.", tone: "teal" },
+  { icon: "Building2", title: "Fasilitas Lengkap", description: "Ruang kelas representatif, multimedia, perpustakaan, dan sarana olahraga.", tone: "teal" },
 ];
