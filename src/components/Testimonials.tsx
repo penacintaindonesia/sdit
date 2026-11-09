@@ -18,9 +18,6 @@ export default function Testimonials() {
       <div className="container-x">
         <div className="reveal text-center">
           <SectionLabel align="center">Testimoni</SectionLabel>
-          <h2 id="judul-testimoni" className="mt-3 font-display text-[26px] font-extrabold text-primary sm:text-[32px]">
-            Apa Kata Orang Tua dan Siswa Kami?
-          </h2>
         </div>
 
         <div className="reveal mt-10 flex items-center gap-3 sm:gap-6">
